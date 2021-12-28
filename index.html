@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Momentum</title>
+</head>
+<body>
+	<h4 class="mark">made by tyou</h4>
+	<h2 class="clock" id="clock">00:00:00</h2>
+	<form class ="name hidden" id="login-form">
+		<input
+			required
+			maxlength="9"
+			type="text"
+			placeholder="What is your name?"
+			style="	background-color:transparent;
+					border:none;border-right:0px; border-top:0px;
+					outline: black;
+					color: black;
+					font-size:30px;
+					width:450px;
+					height:70px;"
+		/>
+	</form>
+	<h1 id="greeting" class="greeting hidden" style="height: fit-content;"></h1>
+	<form class="todo" id="todo-form">
+		<input type="text"placeholder="Write a To Do and Press Enter" required
+		style="	background-color:transparent;
+					border:none;border-right:0px; border-top:0px;
+					outline: black;
+					color: black;
+					font-size:30px;
+					width:450px;
+					height:70px;">
+	</form>
+	<ul class="list" id="todo-list"></ul>
+	<div class="quote" id="quote">
+		<span></span>
+		<span></span>
+	</div>
+	<div class="weather" id="weather">
+		<span></span>&nbsp;&nbsp;&nbsp;&nbsp;
+		<span></span>
+	</div>
+	<button id="btn" style="position: absolute; font-size: 20px; right:0; bottom: 0; margin-bottom: 0; margin-right: 0; padding-bottom: 3px;">rename</button>
+	<script src="js/greetings.js"></script>
+	<script src="js/clock.js"></script>
+	<script src="js/quotes.js"></script>
+	<script src="js/background.js"></script>
+	<script src="js/todo.js"></script>
+	<script src="js/weather.js"></script>
+</body>
+</html>

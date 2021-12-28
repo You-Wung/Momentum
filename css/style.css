@@ -1,0 +1,91 @@
+.hidden {
+	display: none;
+}
+
+.mark {
+	font-style: oblique;
+	font-family: serif;
+	text-align: right;
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 5%;
+	font-size: 25px;
+}
+
+.name {
+	text-align: center;
+	background-color: rgba( 255, 255, 255, 0.5 );
+	margin: 0 auto;
+	width: 600px;
+}
+
+.list {
+	text-align: center;
+	font-size: 30px;
+	/*font-weight: bold;*/
+	list-style:none;
+	color: black;
+	background-color: rgba( 255, 255, 255, 0.5 );
+}
+
+.weather {
+	font-size: 25px;
+	color: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	background-color: rgba( 255, 255, 255, 0.5 );
+}
+
+input::placeholder {
+	color: black;
+}
+
+button {
+	background-color:transparent;
+	border: none;
+	margin: 10px;
+	font-size: 30px;
+}
+
+.quote {
+	font-size: 25px;
+	color: black;
+	background-color: rgba( 255, 255, 255, 0.5 );
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.todo {
+	text-align: center;
+	background-color: rgba( 255, 255, 255, 0.5 );
+	margin: 0 auto;
+	width: 600px;
+	padding-top: 5%;
+}
+
+.greeting {
+	text-align: center;
+	font-family: serif;
+	font-weight: bold;
+	word-break:break-all;
+	margin: 0 auto;
+	width: 600px;
+	font-size: 90px;
+	background-color: rgba( 255, 255, 255, 0.5 );
+}
+
+.clock {
+	display: block;
+	text-align: center;
+	font-style: oblique;
+	font-family: serif;
+	width: 600px;
+	margin: 0 auto;
+	font-size: 100px;
+	background-color: rgba( 255, 255, 255, 0.5 );
+}
